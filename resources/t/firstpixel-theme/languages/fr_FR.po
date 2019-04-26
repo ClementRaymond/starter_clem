@@ -1,0 +1,215 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: First Pixel\n"
+"POT-Creation-Date: 2018-07-30 15:12+0200\n"
+"PO-Revision-Date: 2018-07-30 15:12+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.0.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/core/_clean-admin.php:87
+msgid "firstPixel"
+msgstr ""
+
+#: inc/core/_config.php:81
+msgid "I agree"
+msgstr "Ok"
+
+#: inc/core/_config.php:82
+msgid ""
+"By continuing your navigation, you accept the deposit of cookies to improve "
+"your browsing, offer you buttons for sharing or uploading content from "
+"social platforms, and perform statistics visits."
+msgstr ""
+"En poursuivant votre navigation sur ce site, vous acceptez l’utilisation de "
+"Cookies (ou autres traceurs) pour réaliser des statistiques anonymes de "
+"visites."
+
+#: inc/core/_config.php:83
+msgid "Learn more."
+msgstr "En savoir plus."
+
+#: inc/core/_config.php:94
+msgid "Header main menu"
+msgstr "Menu principale du header"
+
+#: inc/posttypes/_model.php:16
+#, fuzzy
+#| msgid "Models"
+msgctxt "Postype : Nom post"
+msgid "Models"
+msgstr "Modèles"
+
+#: inc/posttypes/_model.php:17
+#, fuzzy
+#| msgid "Model"
+msgctxt "Postype : Nom post singulier"
+msgid "Model"
+msgstr "Modèle"
+
+#: inc/posttypes/_model.php:18
+#, fuzzy
+#| msgid "All models"
+msgctxt "Postype : Tous les posts"
+msgid "All models"
+msgstr "Tous les modèles"
+
+#: inc/posttypes/_model.php:19
+#, fuzzy
+#| msgid "Add model"
+msgctxt "Postype : Ajouter un nouveau"
+msgid "Add model"
+msgstr "Ajouter un modèle"
+
+#: inc/posttypes/_model.php:20
+#, fuzzy
+#| msgid "Add new model"
+msgctxt "Postype : Ajouter un nouveau post"
+msgid "Add new model"
+msgstr "Ajouter un nouveau modèle"
+
+#: inc/posttypes/_model.php:21
+#, fuzzy
+#| msgid "Edit model"
+msgctxt "Postype : Editer post"
+msgid "Edit model"
+msgstr "Éditer un modèle"
+
+#: inc/posttypes/_model.php:22
+#, fuzzy
+#| msgid "New model"
+msgctxt "Postype : Nouveau post"
+msgid "New model"
+msgstr "Nouveau modèle"
+
+#: inc/posttypes/_model.php:23
+#, fuzzy
+#| msgid "View model"
+msgctxt "Postype : Voir post"
+msgid "View model"
+msgstr "Voir"
+
+#: inc/posttypes/_model.php:24
+#, fuzzy
+#| msgid "Find model"
+msgctxt "Postype : Chercher post"
+msgid "Find model"
+msgstr "Trouver un modèle"
+
+#: inc/posttypes/_model.php:25
+#, fuzzy
+#| msgid "No result"
+msgctxt "Postype : Post non trouver"
+msgid "No result"
+msgstr "Aucun résultat de recherche"
+
+#: inc/posttypes/_model.php:26
+#, fuzzy
+#| msgid "No result"
+msgctxt "Postype : Post non trouver dans la corbeille"
+msgid "No result"
+msgstr "Aucun résultat de recherche"
+
+#: inc/posttypes/_model.php:27
+#, fuzzy
+#| msgid "Parent model:"
+msgctxt "Postype : Post parent"
+msgid "Parent model:"
+msgstr "Modèle parent :"
+
+#: inc/posttypes/_model.php:28
+#, fuzzy
+#| msgid "Models"
+msgctxt "Postype : Nom menu"
+msgid "Models"
+msgstr "Modèles"
+
+#: inc/posttypes/_model.php:55
+msgid "Exemple"
+msgstr "Exemple"
+
+#: templates/misc/fourofour.php:20
+msgid "The page you are looking for doesn't exist or is not available anymore."
+msgstr "La page que vous consultez n’existe pas ou n’est plus disponible."
+
+#: templates/misc/fourofour.php:21
+msgid "Back to Home"
+msgstr "Retour sur la page d’accueil"
+
+#: templates/misc/search-form.php:14 templates/misc/search-form.php:15
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: templates/misc/search-form.php:15
+msgctxt "placeholder"
+msgid "Search …"
+msgstr ""
+
+#: templates/misc/search-form.php:18
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: templates/search/search-item.php:28
+msgid "Read more"
+msgstr "En savoir plus"
+
+#: templates/search/search-result.php:21
+msgid "No result"
+msgstr "Aucun résultat de recherche"
+
+#: templates/search/search-result.php:22
+msgid "Try to search again"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#, fuzzy
+#| msgid "First Pixel"
+msgid "FirstPixel"
+msgstr "First Pixel"
+
+#. Theme URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.36pixels.fr"
+msgstr "http://www.36pixels.fr"
+
+#. Description of the plugin/theme
+msgid "The 36 Pixels starter theme for WordPress."
+msgstr "Starter Thème de 36 Pixels"
+
+#. Author of the plugin/theme
+msgid "the 36 Pixels team"
+msgstr "Equipe 36 Pixels"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid ""
+#~ "By continuing to use this site you are agreeing to our cookie management "
+#~ "policy."
+#~ msgstr ""
+#~ "En continuant votre navigation, vous acceptez l’utilisation des cookies "
+#~ "sur le site."
+
+#~ msgid "Welcome"
+#~ msgstr "Bienvenue"
+
+#~ msgid "404"
+#~ msgstr "404"
+
+#~ msgid "All the industries"
+#~ msgstr "Toutes les industries"

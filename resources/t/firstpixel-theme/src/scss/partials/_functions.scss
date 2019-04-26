@@ -1,0 +1,50 @@
+/**
+ * converting px to rem
+ * ------------------------------------------
+ * @param  int     $value         size units px whithout "px"
+ * @return string                 size units rem
+ */
+@function px-to-rem( $value ){
+    @return getEmValue( $value ) * 1rem;
+}
+
+/**
+ * converting px to em
+ * ------------------------------------------
+ * @param  int     $value         size units px whithout "px"
+ * @return string                 size units rem
+ */
+@function px-to-em( $value ){
+    @return getEmValue( $value ) * 1em;
+}
+
+/**
+ * get Rem size
+ * ------------------------------------------
+ * @param  int     $value             get unit
+ * @return string                   return unit px
+ */
+@function getEmValue( $value ){
+    @return setUnit( $value ) / 16px;
+}
+
+/**
+ * set unit value
+ * ------------------------------------------
+ * @param  int     $value             get unit
+ * @return string                   return unit px
+ */
+@function setUnit( $value ){
+    @return if( unitless( $value ), $value * 1px, $value );
+}
+
+/**
+ * calcule the percent
+ * ------------------------------------------
+ * @param  int     $target       child
+ * @param  int     $container    parent
+ * @return string                   return percent
+ */
+@function calc-percent( $target, $container ) {
+    @return ( $target / $container ) * 100%;
+}

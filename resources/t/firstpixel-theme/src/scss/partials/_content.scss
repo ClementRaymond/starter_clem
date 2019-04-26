@@ -1,0 +1,55 @@
+.content {
+    > * {
+        margin-top: px-to-rem( 16 );
+        margin-bottom: px-to-rem( 16 );
+
+        &:first-child {
+            margin-top: 0;
+        }
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    ul:not(.gform_fields) {
+        list-style: none;
+        li {
+            @include font-size( 16px );
+            position: relative;
+            &::before {
+                content: "";
+                left: -1rem;
+                position: absolute;
+                top: 10px;
+                width: px-to-rem( 6 );
+                height: px-to-rem( 6 );
+                background-color: $color-primary;
+            }
+        }
+    }
+
+    ol {
+        margin-left: 0;
+        counter-reset: section;
+        list-style-type: none;
+        li {
+            position: relative;
+        }
+        li::before {
+            color: $color-primary;
+            counter-increment: section;
+            content: counters(section,"-");
+            padding-right: 1rem;
+        }
+    }
+    ol,
+    ul {
+        ul li,
+        ol li {
+            @include font-size( 12px );
+        }
+    }
+
+
+}

@@ -1,0 +1,14 @@
+@import 'partials/config';
+
+$base-color: $dark-grey; //couleur de l'admin
+$icon-color: $white;
+$highlight-color: $color-primary; // couleur au survol
+$notification-color: $color-primary;
+$button-color: $color-secondary;
+$link: $color-primary;
+
+$menu-submenu-text: $white;
+$menu-submenu-focus-text: $color-primary;
+$menu-submenu-background: lighten($base-color, 10%);
+
+@import "admin/_admin";

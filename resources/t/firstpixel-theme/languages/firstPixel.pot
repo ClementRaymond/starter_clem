@@ -1,0 +1,121 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: First Pixel\n"
+"POT-Creation-Date: 2017-03-06 18:44+0100\n"
+"PO-Revision-Date: 2016-08-19 12:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: home.php:19
+msgid "Welcome"
+msgstr ""
+
+#: inc/core/_clean-admin.php:87
+msgid "firstPixel"
+msgstr ""
+
+#: inc/core/_config.php:54
+msgid "Ok"
+msgstr ""
+
+#: inc/core/_config.php:55
+msgid ""
+"By continuing to use this site you are agreeing to our cookie management "
+"policy."
+msgstr ""
+
+#: inc/core/_config.php:56
+msgid "Learn more."
+msgstr ""
+
+#: inc/core/_config.php:67
+msgid "Header main menu"
+msgstr ""
+
+#: inc/posttypes/_model.php:7 inc/posttypes/_model.php:19
+msgid "Models"
+msgstr ""
+
+#: inc/posttypes/_model.php:8
+msgid "Model"
+msgstr ""
+
+#: inc/posttypes/_model.php:9
+msgid "All models"
+msgstr ""
+
+#: inc/posttypes/_model.php:10
+msgid "Add model"
+msgstr ""
+
+#: inc/posttypes/_model.php:11
+msgid "Add new model"
+msgstr ""
+
+#: inc/posttypes/_model.php:12
+msgid "Edit model"
+msgstr ""
+
+#: inc/posttypes/_model.php:13
+msgid "New model"
+msgstr ""
+
+#: inc/posttypes/_model.php:14
+msgid "View model"
+msgstr ""
+
+#: inc/posttypes/_model.php:15
+msgid "Find model"
+msgstr ""
+
+#: inc/posttypes/_model.php:16 inc/posttypes/_model.php:17
+msgid "No result"
+msgstr ""
+
+#: inc/posttypes/_model.php:18
+msgid "Parent model:"
+msgstr ""
+
+#: inc/posttypes/_model.php:46
+msgid "Exemple"
+msgstr ""
+
+#: templates/misc/fourofour.php:3
+msgid "404"
+msgstr ""
+
+#: templates/misc/fourofour.php:4
+msgid ""
+"The page you are looking for doesn't exist or is not available anymore."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "First Pixel"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.36pixels.fr"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "The 36 Pixels starter theme for WordPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "the 36 Pixels team"
+msgstr ""

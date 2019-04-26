@@ -1,0 +1,71 @@
+.hamburger-responsive {
+    width: px-to-rem( 60px );
+    height: px-to-rem( 60px );
+    pointer-events: auto;
+    z-index: 1000;
+    outline: 0;
+    background-color: $white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    > div {
+        background-color: $color-primary;
+        width: px-to-rem( 35px );
+        height: px-to-rem( 4px );
+        position: absolute;
+        @include align();
+        transition-duration: 0.4s;
+
+        &::after {
+            @include fp_transform( translateY( px-to-rem( 10px )) );
+        }
+
+        &::before {
+            @include fp_transform( translateY( px-to-rem( -10px )) );
+        }
+
+        &::after,
+        &::before {
+            transition-duration: 0.4s;
+            top: 0;
+            left: 0;
+            content: "";
+            position: absolute;
+            background-color: $color-primary;
+            width: px-to-rem( 35px );
+            height: px-to-rem( 4px );
+        }
+    }
+
+    &.is-active > div {
+        background-color: rgba($white, 0);
+
+        &::after {
+            @include fp_transform( rotate(45deg) );
+        }
+
+        &::before {
+            @include fp_transform( rotate(-45deg) );
+        }
+    }
+}
+
+.dark-focus-responsive {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 0;
+    transition: all 0.5s;
+    @include breakpoint( large ) {
+        display: none;
+    }
+    .is-opened & {
+        z-index: 950;
+        opacity: 1;
+    }
+}

@@ -1,0 +1,58 @@
+.fourofour{
+
+  &__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    img,
+    svg {
+      width: 80%;
+      margin: 0 auto;
+      position: relative;
+      max-width: 800px;
+      z-index: -1;
+      .aiguille {
+        transform-origin: 72px 25px;
+        animation: spin1 3s cubic-bezier(.94,.1,.6,1.05) infinite;
+      }
+    }
+    h3{
+      text-align: center;
+      margin-top: 50px;
+      z-index: 4;
+    }
+    a{
+      margin: 20px auto;
+      text-align: center;
+      border: 1px solid $color-primary;
+      padding: 10px;
+      position: relative;
+      color: black;
+      max-width: 227px;
+      text-align: center;
+
+      &::before{
+        content: '';
+        background-color: $color-primary;
+        position: absolute;
+        height: 100%;
+        top:0;
+        left: 0;
+        width: 0;
+        transition: 1s ease all;
+        z-index: -1;
+      }
+      &:hover{
+        &:before{
+          width: 100%;
+          transition: 1s ease all;
+        }
+      }
+    }
+  }
+}
+@keyframes spin1 {
+  0% { transform: rotate(-45deg); }
+  50% { transform: rotate(360deg); }
+  100% { transform: rotate(-45deg); }
+}

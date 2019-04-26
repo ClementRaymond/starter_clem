@@ -1,0 +1,81 @@
+.gform_body ul {
+    margin-left: 0;
+    list-style: none;
+    @include clearfix;
+}
+
+// container
+.gform_wrapper,
+.gform_body {
+    @include grid-row;
+    //@include nested-row;
+}
+
+// form
+.gform_wrapper > form,
+.gform_page_footer {
+    @include grid-column(12);
+}
+
+// size field
+.fp_gform_large {
+    @include grid-column(12);
+}
+
+.fp_gform_medium {
+    @include grid-column(6);
+}
+
+.fp_gform_small {
+    @include grid-column(4);
+}
+
+.gform_wrapper .button {
+    @include button();
+}
+
+.gfield label {
+    padding-bottom: px-to-rem( 10px );
+    @include font-size( 18px );
+}
+
+.gfield_required {
+    margin-left: px-to-rem( 4px );
+    @include font-size( 18px );
+    color: $color-primary;
+}
+
+.gform_fields > li:not(.gform_validation_container) {
+    margin: px-to-rem( 30px ) 0;
+}
+
+.gfield_description {
+    padding-top: px-to-rem( 20px );
+    padding-bottom: px-to-rem( 10px );
+    @include font-size( 18px );
+}
+
+.gform_confirmation_message,
+.gform_confirmation_message_2,
+.gform_confirmation_wrapper *,
+.gf_progressbar_title {
+    @include font-size( 20 );
+}
+
+.gform_title {
+    color: $color-primary;
+}
+
+.gf_progressbar_percentage {
+    background-color: $color-primary;
+    padding: 10px;
+    color: $white;
+}
+
+.fp_gform_honeypot {
+    display: none;
+}
+
+.gform_description:empty {
+    display: none;
+}

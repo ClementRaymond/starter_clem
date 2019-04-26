@@ -1,0 +1,9 @@
+.downarr.styled {
+    margin: 0 auto;
+    display: block;
+    width: px-to-rem( 100 );
+    height: px-to-rem( 100 );
+    outline: 0;
+    cursor: pointer;
+    @include css-triangle(30px, $color-primary, down);
+}
