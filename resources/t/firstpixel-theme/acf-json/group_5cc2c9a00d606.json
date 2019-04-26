@@ -1,0 +1,41 @@
+{
+    "key": "group_5cc2c9a00d606",
+    "title": "Garanties",
+    "fields": [
+        {
+            "key": "field_5cc2c9afcd8b1",
+            "label": "Date de fin",
+            "name": "end_date",
+            "type": "date_time_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "d\/m\/Y g:i s",
+            "return_format": "d\/m\/Y g:i s",
+            "first_day": 1
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "garantie"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1556269531
+}
